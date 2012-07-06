@@ -1,0 +1,119 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C917736F-50BF-4653-BF8F-9C80E78C8418}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.txt = CHANGELOG.txt
+		localtestrun.testrunconfig = localtestrun.testrunconfig
+		Release.bat = Release.bat
+		RidoTasks.targets = RidoTasks.targets
+		RidoTasks.targets.testproj = RidoTasks.targets.testproj
+		run.bat = run.bat
+		test.bat = test.bat
+		testTask.bat = testTask.bat
+		todo.txt = todo.txt
+		TRX2HTML Solution.vsmdi = TRX2HTML Solution.vsmdi
+		UpdateSampleTRX.bat = UpdateSampleTRX.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trx2html", "trx2html\trx2html.csproj", "{1DF93D37-F740-42E3-81D6-FB648F4F2F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trx2html.Test", "trx2html.Test\trx2html.Test.csproj", "{F4D02D29-A695-4C81-B423-4A7A8A99B335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{53C38F02-E43B-4EE2-8B99-A44A76F103C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{6744114E-AEDD-438B-9027-43E5DC8FE29D}"
+	ProjectSection(SolutionItems) = preProject
+		html\newTrx2Html.html = html\newTrx2Html.html
+		html\template.htm = html\template.htm
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Img2B64", "Img2B64\Img2B64.csproj", "{76C5961A-21CC-4CB0-9840-1553F96DF77A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleReport", "SampleReport\SampleReport.csproj", "{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RidoTasks", "RidoTasks\RidoTasks.csproj", "{E6A67167-8086-4FE0-AA61-04ACB08AC792}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ridocode.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Img2B64\\Img2B64.csproj
+		SccProjectName1 = Img2B64
+		SccLocalPath1 = Img2B64
+		SccProjectUniqueName2 = SampleReport\\SampleReport.csproj
+		SccProjectTopLevelParentUniqueName2 = RidoTasks.sln
+		SccProjectName2 = SampleReport
+		SccLocalPath2 = SampleReport
+		SccProjectUniqueName3 = trx2html.Test\\trx2html.Test.csproj
+		SccProjectTopLevelParentUniqueName3 = RidoTasks.sln
+		SccProjectName3 = trx2html.Test
+		SccLocalPath3 = trx2html.Test
+		SccProjectUniqueName4 = trx2html\\trx2html.csproj
+		SccProjectTopLevelParentUniqueName4 = RidoTasks.sln
+		SccProjectName4 = trx2html
+		SccLocalPath4 = trx2html
+		SccProjectUniqueName5 = RidoTasks\\RidoTasks.csproj
+		SccProjectName5 = RidoTasks
+		SccLocalPath5 = RidoTasks
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TRX2HTML Solution.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Debug|x86.ActiveCfg = Debug|x86
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Debug|x86.Build.0 = Debug|x86
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Release|x86.ActiveCfg = Release|x86
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04}.Release|x86.Build.0 = Release|x86
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Debug|x86.ActiveCfg = Debug|x86
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Debug|x86.Build.0 = Debug|x86
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Release|x86.ActiveCfg = Release|x86
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335}.Release|x86.Build.0 = Release|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Debug|Any CPU.Build.0 = Debug|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Debug|x86.ActiveCfg = Debug|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Debug|x86.Build.0 = Debug|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Release|Any CPU.ActiveCfg = Release|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Release|x86.ActiveCfg = Release|x86
+		{76C5961A-21CC-4CB0-9840-1553F96DF77A}.Release|x86.Build.0 = Release|x86
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Debug|x86.ActiveCfg = Debug|x86
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Debug|x86.Build.0 = Debug|x86
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Release|x86.ActiveCfg = Release|x86
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB}.Release|x86.Build.0 = Release|x86
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Debug|x86.ActiveCfg = Debug|x86
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Debug|x86.Build.0 = Debug|x86
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Release|x86.ActiveCfg = Release|x86
+		{E6A67167-8086-4FE0-AA61-04ACB08AC792}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4D02D29-A695-4C81-B423-4A7A8A99B335} = {53C38F02-E43B-4EE2-8B99-A44A76F103C6}
+		{EF8684C1-83B7-43C3-AA01-F089CF02BBDB} = {53C38F02-E43B-4EE2-8B99-A44A76F103C6}
+		{1DF93D37-F740-42E3-81D6-FB648F4F2F04} = {53C38F02-E43B-4EE2-8B99-A44A76F103C6}
+	EndGlobalSection
+EndGlobal

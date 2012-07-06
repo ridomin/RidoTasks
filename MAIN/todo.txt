@@ -1,0 +1,15 @@
+
+incluir iconos passed, failed (usando css y base64)
+Mostrar listados especificos
+	Pruebas mas lentas
+	Solo errores
+
+Gestion de Estados (incluir un enum desde el outcome)
+	- Tratar Aborted
+	- Tratar NotRun
+
+Tasks
+	Crear DElegado para usar el Log.Message
+
+
+Gestión de errores

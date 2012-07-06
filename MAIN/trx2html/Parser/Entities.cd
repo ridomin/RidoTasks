@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="trx2html.Parser.ErrorInfo">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAIAAACCA=</HashCode>
+      <FileName>Parser\TestRunResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="trx2html.Parser.TestMethodRun" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEEQAiAgAAoAAAAAAAAAAEQIAAAAAAIAAAAAA=</HashCode>
+      <FileName>Parser\TestRunResult.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ErrorInfo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="trx2html.Parser.TestClassRun" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEgAACAIAAAAAAAAQCAgAAQBABABAAKAASAAA=</HashCode>
+      <FileName>Parser\TestRunResult.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="TestMethods" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="trx2html.Parser.TestRunResult" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhA4AAAAAAAAkBAAAAAAQAAAAAABARAVAAAAAQAAA=</HashCode>
+      <FileName>Parser\TestRunResult.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="TestClassList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="trx2html.Parser.HtmlConverter">
+    <Position X="13" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QYIAAgAIQAAAJAIABAIAAAAgAAAAAoAgAAAgAAAAAAA=</HashCode>
+      <FileName>Parser\HtmlConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="trx2html.Parser.I3ValueBar">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAQAAA=</HashCode>
+      <FileName>Parser\I3ValueBar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

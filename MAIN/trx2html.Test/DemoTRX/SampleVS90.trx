@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="664b9d5f-b182-4bc1-bf5d-1fb8a29d4e97" name="Sample" runUser="RIDOSRV\rido" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="LocalRun" id="9af84c66-5973-4f9e-8a9f-04e4893e10c1">
+    <Description>SampleSuite to test trx2html</Description>
+    <Timeouts testTimeout="300000" />
+    <Deployment runDeploymentRoot="D:\rido\My Documents\Sample[1]">
+      <DeploymentItem filename="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html\bin\Release\trx2html.exe" />
+    </Deployment>
+    <NamingScheme baseName="Sample" appendTimeStamp="false" useDefault="false" />
+    <TestTypeSpecific>
+      <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+        <Browser name="Internet Explorer 6.0">
+          <Headers>
+            <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" />
+            <Header name="Accept" value="*/*" />
+            <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+            <Header name="Accept-Encoding" value="GZIP" />
+          </Headers>
+        </Browser>
+        <Network Name="LAN" BandwidthInKbps="0" />
+      </WebTestRunConfiguration>
+    </TestTypeSpecific>
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="8" error="0" failed="7" timeout="0" aborted="0" inconclusive="4" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-02-10T18:10:25.7187500+01:00" queuing="2008-02-10T18:10:27.6875000+01:00" start="2008-02-10T18:10:28.3593750+01:00" finish="2008-02-10T18:10:28.8906250+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod6" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="9f83fd64-76ec-9cfd-d033-2426bb82b2d6">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d55e48ee-a3fb-4daa-a516-b20274880bf7" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, trx2html.Test" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="5be81b92-33b1-a70c-ed9d-1d826974a419">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethod1Description</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="33ba450a-9e22-44dd-a484-cd5de3f279e2" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, trx2html.Test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="92a33c82-5798-6f5e-b54d-dcaa3166981c">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatPassDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="769bca1f-b5b2-4d77-be17-e236969521cd" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, trx2html.Test" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="8cb59d81-285d-abd7-6b38-1322a0c39841">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e00c9bdc-870a-4c10-9f1c-0c5ea4eb89ac" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, trx2html.Test" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="87728c89-8f2b-bf64-f8a6-3159d3c49299">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f6e06078-9fc7-47f1-abb9-f51b0f7d6084" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, trx2html.Test" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="58e27871-56f6-79c1-84d8-46a9245976f8">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1033347f-421d-4862-a9f1-d3fbde7967d4" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, trx2html.Test" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="4cf016ed-1c06-41be-309f-07784035100a">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailsDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="82cd6239-70c3-4d81-93d6-81d07273d21a" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, trx2html.Test" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="8cee29df-f818-118d-eff2-2e1ac189ce4f">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatPassDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dcb8587d-ed26-4e26-a510-3fc3f16983f0" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, trx2html.Test" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="c8de44c0-d407-4488-30ec-547ec1c8b19a">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="305a8f2f-4a3d-475c-9e71-5ea69bbd2a8b" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, trx2html.Test" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="LoadTextFromResourceTest" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="ca29a9d8-04c0-5b5b-c341-408997b19829">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="trx2html.exe" />
+      </DeploymentItems>
+      <Execution id="8eda24a3-a2a3-4a30-9664-75f7677382c1" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.ResourceReaderTest, trx2html.Test" name="LoadTextFromResourceTest" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail2" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="7e8880a8-49aa-3ca7-d581-0c96347aaf23">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailsDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fb7697be-a34b-4c81-8683-85bd3c914c85" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, trx2html.Test" name="TestMethodFail2" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="c485d085-fa86-9de1-fdf2-33492397240a">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailsDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="29a90fad-67a8-4d83-a0fd-babc657bf7e1" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, trx2html.Test" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="e2da85c0-df83-1d56-d83c-7ac95f39a15e">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="cfcece69-7c6e-457d-a777-66bba6580bf3" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, trx2html.Test" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="StreamFromResourceTest" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="92f2efb0-47b6-db8d-fb8f-fdb1003e07f5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="trx2html.exe" />
+      </DeploymentItems>
+      <Execution id="afa41f9f-ae06-44fc-bce8-ee597d787816" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.ResourceReaderTest, trx2html.Test" name="StreamFromResourceTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="a2559688-4825-60f4-21dd-3031a57f6336">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethod3Description</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7c532c23-b3c6-47e7-94cb-10701b7d91d7" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, trx2html.Test" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatFailDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8329a175-58e6-4905-88cb-fd377b2c6f34" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, trx2html.Test" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="b5966869-ab5b-78e3-e77e-3bc6715117dd">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2e5ee7c6-813c-4397-8a67-48c99c3f31e8" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, trx2html.Test" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethodThatPassDescription</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ee3afccc-e690-4826-b834-af93c566fc41" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, trx2html.Test" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="d:\rido\atcodeplex\trx2html\trx2html solution\trx2html.test\bin\release\trx2html.test.dll" id="ea63fd71-f65d-c981-9599-34226d0823cb">
+      <Css projectStructure="" iteration="" />
+      <Description>TestMethod2Description</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8f9b9619-0a38-4b95-b2c2-1eee9e17056c" />
+      <TestMethod codeBase="D:\rido\atCodePlex\trx2html\TRX2HTML Solution\trx2html.Test\bin\Release\trx2html.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, trx2html.Test" name="TestMethod2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8cb59d81-285d-abd7-6b38-1322a0c39841" executionId="e00c9bdc-870a-4c10-9f1c-0c5ea4eb89ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87728c89-8f2b-bf64-f8a6-3159d3c49299" executionId="f6e06078-9fc7-47f1-abb9-f51b0f7d6084" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2da85c0-df83-1d56-d83c-7ac95f39a15e" executionId="cfcece69-7c6e-457d-a777-66bba6580bf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5be81b92-33b1-a70c-ed9d-1d826974a419" executionId="33ba450a-9e22-44dd-a484-cd5de3f279e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea63fd71-f65d-c981-9599-34226d0823cb" executionId="8f9b9619-0a38-4b95-b2c2-1eee9e17056c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2559688-4825-60f4-21dd-3031a57f6336" executionId="7c532c23-b3c6-47e7-94cb-10701b7d91d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cf016ed-1c06-41be-309f-07784035100a" executionId="82cd6239-70c3-4d81-93d6-81d07273d21a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8880a8-49aa-3ca7-d581-0c96347aaf23" executionId="fb7697be-a34b-4c81-8683-85bd3c914c85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5966869-ab5b-78e3-e77e-3bc6715117dd" executionId="2e5ee7c6-813c-4397-8a67-48c99c3f31e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58e27871-56f6-79c1-84d8-46a9245976f8" executionId="1033347f-421d-4862-a9f1-d3fbde7967d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f83fd64-76ec-9cfd-d033-2426bb82b2d6" executionId="d55e48ee-a3fb-4daa-a516-b20274880bf7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca29a9d8-04c0-5b5b-c341-408997b19829" executionId="8eda24a3-a2a3-4a30-9664-75f7677382c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92f2efb0-47b6-db8d-fb8f-fdb1003e07f5" executionId="afa41f9f-ae06-44fc-bce8-ee597d787816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c485d085-fa86-9de1-fdf2-33492397240a" executionId="29a90fad-67a8-4d83-a0fd-babc657bf7e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cee29df-f818-118d-eff2-2e1ac189ce4f" executionId="dcb8587d-ed26-4e26-a510-3fc3f16983f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578" executionId="8329a175-58e6-4905-88cb-fd377b2c6f34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99" executionId="ee3afccc-e690-4826-b834-af93c566fc41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a33c82-5798-6f5e-b54d-dcaa3166981c" executionId="769bca1f-b5b2-4d77-be17-e236969521cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8de44c0-d407-4488-30ec-547ec1c8b19a" executionId="305a8f2f-4a3d-475c-9e71-5ea69bbd2a8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e00c9bdc-870a-4c10-9f1c-0c5ea4eb89ac" testId="8cb59d81-285d-abd7-6b38-1322a0c39841" testName="TestMethodFail" computerName="RIDOSRV" duration="00:00:00.0536400" startTime="2008-02-10T18:10:28.4687500+01:00" endTime="2008-02-10T18:10:28.7343750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethodFail()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6e06078-9fc7-47f1-abb9-f51b0f7d6084" testId="87728c89-8f2b-bf64-f8a6-3159d3c49299" testName="TestMethod2" computerName="RIDOSRV" duration="00:00:00.0004715" startTime="2008-02-10T18:10:28.7343750+01:00" endTime="2008-02-10T18:10:28.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethod2()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cfcece69-7c6e-457d-a777-66bba6580bf3" testId="e2da85c0-df83-1d56-d83c-7ac95f39a15e" testName="TestMethod3" computerName="RIDOSRV" duration="00:00:00.0004958" startTime="2008-02-10T18:10:28.7500000+01:00" endTime="2008-02-10T18:10:28.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethod3()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="33ba450a-9e22-44dd-a484-cd5de3f279e2" testId="5be81b92-33b1-a70c-ed9d-1d826974a419" testName="TestMethod1" computerName="RIDOSRV" duration="00:00:00.0003830" startTime="2008-02-10T18:10:28.7500000+01:00" endTime="2008-02-10T18:10:28.7500000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>tracelog from console.out</StdOut>
+        <StdErr>tracelog from error.out</StdErr>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f9b9619-0a38-4b95-b2c2-1eee9e17056c" testId="ea63fd71-f65d-c981-9599-34226d0823cb" testName="TestMethod2" computerName="RIDOSRV" duration="00:00:00.0000622" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c532c23-b3c6-47e7-94cb-10701b7d91d7" testId="a2559688-4825-60f4-21dd-3031a57f6336" testName="TestMethod3" computerName="RIDOSRV" duration="00:00:00.0000575" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="82cd6239-70c3-4d81-93d6-81d07273d21a" testId="4cf016ed-1c06-41be-309f-07784035100a" testName="TestMethodFail" computerName="RIDOSRV" duration="00:00:00.0005034" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethodFail()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb7697be-a34b-4c81-8683-85bd3c914c85" testId="7e8880a8-49aa-3ca7-d581-0c96347aaf23" testName="TestMethodFail2" computerName="RIDOSRV" duration="00:00:00.0003754" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethodFail2()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2e5ee7c6-813c-4397-8a67-48c99c3f31e8" testId="b5966869-ab5b-78e3-e77e-3bc6715117dd" testName="TestMethod4" computerName="RIDOSRV" duration="00:00:00.0029933" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7656250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod4()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1033347f-421d-4862-a9f1-d3fbde7967d4" testId="58e27871-56f6-79c1-84d8-46a9245976f8" testName="TestMethod5" computerName="RIDOSRV" duration="00:00:00.0005875" startTime="2008-02-10T18:10:28.7656250+01:00" endTime="2008-02-10T18:10:28.7812500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod5()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d55e48ee-a3fb-4daa-a516-b20274880bf7" testId="9f83fd64-76ec-9cfd-d033-2426bb82b2d6" testName="TestMethod6" computerName="RIDOSRV" duration="00:00:00.0006232" startTime="2008-02-10T18:10:28.7812500+01:00" endTime="2008-02-10T18:10:28.7968750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod6()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8eda24a3-a2a3-4a30-9664-75f7677382c1" testId="ca29a9d8-04c0-5b5b-c341-408997b19829" testName="LoadTextFromResourceTest" computerName="RIDOSRV" duration="00:00:00.0076744" startTime="2008-02-10T18:10:28.7968750+01:00" endTime="2008-02-10T18:10:28.8125000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="afa41f9f-ae06-44fc-bce8-ee597d787816" testId="92f2efb0-47b6-db8d-fb8f-fdb1003e07f5" testName="StreamFromResourceTest" computerName="RIDOSRV" duration="00:00:00.0005559" startTime="2008-02-10T18:10:28.8125000+01:00" endTime="2008-02-10T18:10:28.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="29a90fad-67a8-4d83-a0fd-babc657bf7e1" testId="c485d085-fa86-9de1-fdf2-33492397240a" testName="TestMethodFail" computerName="RIDOSRV" duration="00:00:00.0005626" startTime="2008-02-10T18:10:28.8281250+01:00" endTime="2008-02-10T18:10:28.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.SomeFailed.TestMethodFail()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dcb8587d-ed26-4e26-a510-3fc3f16983f0" testId="8cee29df-f818-118d-eff2-2e1ac189ce4f" testName="TestMethod2" computerName="RIDOSRV" duration="00:00:00.0001748" startTime="2008-02-10T18:10:28.8281250+01:00" endTime="2008-02-10T18:10:28.8281250+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8329a175-58e6-4905-88cb-fd377b2c6f34" testId="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578" testName="TestMethod3" computerName="RIDOSRV" duration="00:00:00.0004559" startTime="2008-02-10T18:10:28.8281250+01:00" endTime="2008-02-10T18:10:28.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.SomeFailed.TestMethod3()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee3afccc-e690-4826-b834-af93c566fc41" testId="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99" testName="TestMethod1" computerName="RIDOSRV" duration="00:00:00.0003260" startTime="2008-02-10T18:10:28.8437500+01:00" endTime="2008-02-10T18:10:28.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <StdOut>sample tracelog from ConsoleWriteLine</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="769bca1f-b5b2-4d77-be17-e236969521cd" testId="92a33c82-5798-6f5e-b54d-dcaa3166981c" testName="TestMethod2" computerName="RIDOSRV" duration="00:00:00.0001553" startTime="2008-02-10T18:10:28.8437500+01:00" endTime="2008-02-10T18:10:28.8437500+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="305a8f2f-4a3d-475c-9e71-5ea69bbd2a8b" testId="c8de44c0-d407-4488-30ec-547ec1c8b19a" testName="TestMethod4" computerName="RIDOSRV" duration="00:00:00.0005486" startTime="2008-02-10T18:10:28.8437500+01:00" endTime="2008-02-10T18:10:28.8593750+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive Message</Message>
+          <StackTrace>   at trx2html.Test.SomeIgnored.TestMethod4()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

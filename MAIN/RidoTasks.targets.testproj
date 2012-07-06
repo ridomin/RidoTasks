@@ -1,0 +1,17 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="testRidoTasks">
+
+  <UsingTask TaskName="RidoTasks.trx2html" AssemblyFile="tools\RidoTasks.dll" />
+  <UsingTask TaskName="RidoTasks.file2wss" AssemblyFile="tools\RidoTasks.dll" />
+
+	<Target Name="testRidoTasks">
+    <CreateItem Include="trx2html.Test\DemoTRX\*.trx">
+      <Output TaskParameter="Include" ItemName="trxfiles"/>
+    </CreateItem>
+    <Message Text="Processing %(trxfiles.Identity)" />
+    
+    <RidoTasks.trx2html FileName="%(trxfiles.Identity)" />  
+    <RidoTasks.file2wss FileName="trx2html.Test\DemoTRX\Dev10.trx.htm" TargetUrl="https://vstf-eu-dub-01.partners.extranet.microsoft.com/sites/EXT04_Consol_TPC/TM3/Bits/Dev10.trx.htm" />
+  </Target>
+  
+  
+</Project>

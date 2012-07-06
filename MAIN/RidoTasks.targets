@@ -1,0 +1,20 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+	<UsingTask TaskName="RidoTasks.trx2html" AssemblyFile="tools\RidoTasks.dll" />
+  <UsingTask TaskName="RidoTasks.file2wss" AssemblyFile="tools\RidoTasks.dll" />
+
+
+	<Target Name="CreateTRXReports" DependsOnTargets="ListItems">
+    <CreateItem Include="$(DropLocation)\$(BuildNumber)\TestResults\*.trx">
+      <Output TaskParameter="Include" ItemName="trxfiles"/>
+    </CreateItem>
+    <RidoTasks.trx2html FileName="%(trxfiles.Identity)" />
+	</Target>
+
+	<Target Name="UploadToWSS">
+    <CreateItem Include="$(DropLocation)\$(BuildNumber)\TestResults\*.trx.htm">
+      <Output TaskParameter="Include" ItemName="htmlfiles"/>
+    </CreateItem>
+    <RidoTasks.file2wss FileName="%(htmlfiles.Identity)" TargetUrl="https://vstf-eu-dub-01.partners.extranet.microsoft.com/sites/EXT04_Consol_TPC/TM3/Bits/VS2010.trx.xml" />
+	</Target>
+</Project>
+

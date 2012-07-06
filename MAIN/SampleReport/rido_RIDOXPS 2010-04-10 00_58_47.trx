@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f455523d-1c43-46ce-ae10-9e0e9e69d00f" name="rido@RIDOXPS 2010-04-10 00:58:47" runUser="ridoxps\rido" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3253ee9d-2dc0-4c1e-866d-3a32e0a006b7">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="rido_RIDOXPS 2010-04-10 00_58_47" />
+  </TestSettings>
+  <Times creation="2010-04-10T00:58:47.5084492+02:00" queuing="2010-04-10T00:58:47.7084607+02:00" start="2010-04-10T00:58:47.7724643+02:00" finish="2010-04-10T00:58:48.3414969+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="17" executed="17" passed="6" error="0" failed="7" timeout="0" aborted="0" inconclusive="4" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethodFail" storage="samplereport\bin\debug\samplereport.dll" id="c485d085-fa86-9de1-fdf2-33492397240a">
+      <Description>TestMethodThatFailsDescription</Description>
+      <Execution id="133cf4c0-c4b2-4b5c-aecd-147e132fc2ef" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="samplereport\bin\debug\samplereport.dll" id="e2da85c0-df83-1d56-d83c-7ac95f39a15e">
+      <Description>TestMethodThatFailDescription</Description>
+      <Execution id="a88c34cf-923e-4782-930b-1074932a0443" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="samplereport\bin\debug\samplereport.dll" id="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99">
+      <Description>TestMethodThatPassDescription</Description>
+      <Execution id="c8b460d2-ddfc-4d11-b0d3-8071622cdbe2" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail" storage="samplereport\bin\debug\samplereport.dll" id="4cf016ed-1c06-41be-309f-07784035100a">
+      <Description>TestMethodThatFailsDescription</Description>
+      <Execution id="11f20406-3c82-4438-a60f-e0eda470d907" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="samplereport\bin\debug\samplereport.dll" id="5be81b92-33b1-a70c-ed9d-1d826974a419">
+      <Description>TestMethod1Description</Description>
+      <Execution id="34f15048-75c5-4463-b49f-35572f081311" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="samplereport\bin\debug\samplereport.dll" id="a2559688-4825-60f4-21dd-3031a57f6336">
+      <Description>TestMethod3Description</Description>
+      <Execution id="210c5dd6-c8e4-4c35-af0d-a9b0cca7a794" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="samplereport\bin\debug\samplereport.dll" id="92a33c82-5798-6f5e-b54d-dcaa3166981c">
+      <Description>TestMethodThatPassDescription</Description>
+      <Execution id="6bfc57cb-6e9b-4832-ac79-5d4d9e2a9613" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail" storage="samplereport\bin\debug\samplereport.dll" id="8cb59d81-285d-abd7-6b38-1322a0c39841">
+      <Description>TestMethodThatFailDescription</Description>
+      <Execution id="5869309e-eebd-4545-9bab-e14ed4bc2c39" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodFail" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="samplereport\bin\debug\samplereport.dll" id="8cee29df-f818-118d-eff2-2e1ac189ce4f">
+      <Description>TestMethodThatPassDescription</Description>
+      <Execution id="89381da6-5115-4d17-88b1-0782520592e3" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="samplereport\bin\debug\samplereport.dll" id="b5966869-ab5b-78e3-e77e-3bc6715117dd">
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Execution id="484601fd-8726-4371-8ee1-4ab5f70c0677" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="samplereport\bin\debug\samplereport.dll" id="ea63fd71-f65d-c981-9599-34226d0823cb">
+      <Description>TestMethod2Description</Description>
+      <Execution id="2dac446d-d5d9-44da-8fc9-d74d2bc505fa" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllPassed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod5" storage="samplereport\bin\debug\samplereport.dll" id="58e27871-56f6-79c1-84d8-46a9245976f8">
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Execution id="78d85d5d-439c-4dbb-b52a-8d97c4f93804" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod5" />
+    </UnitTest>
+    <UnitTest name="TestMethodFail2" storage="samplereport\bin\debug\samplereport.dll" id="7e8880a8-49aa-3ca7-d581-0c96347aaf23">
+      <Description>TestMethodThatFailsDescription</Description>
+      <Execution id="0be7b6f6-7514-4b52-9e27-56c6611304b1" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethodFail2" />
+    </UnitTest>
+    <UnitTest name="TestMethod3" storage="samplereport\bin\debug\samplereport.dll" id="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578">
+      <Description>TestMethodThatFailDescription</Description>
+      <Execution id="53a539e3-8e7c-49ad-b392-03ca9500d987" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod3" />
+    </UnitTest>
+    <UnitTest name="TestMethod6" storage="samplereport\bin\debug\samplereport.dll" id="9f83fd64-76ec-9cfd-d033-2426bb82b2d6">
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Execution id="ab615ff5-814a-4296-8e14-b94749e0f23a" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.FailAndIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod6" />
+    </UnitTest>
+    <UnitTest name="TestMethod2" storage="samplereport\bin\debug\samplereport.dll" id="87728c89-8f2b-bf64-f8a6-3159d3c49299">
+      <Description>TestMethodThatFailDescription</Description>
+      <Execution id="28ffc405-ebf0-42dd-ba24-376245eb573e" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.AllFailed, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod4" storage="samplereport\bin\debug\samplereport.dll" id="c8de44c0-d407-4488-30ec-547ec1c8b19a">
+      <Description>TestMethodThatIsIconclusive</Description>
+      <Execution id="ed32065f-ff8d-4984-a2dd-be81d6e5325c" />
+      <TestMethod codeBase="D:/code/codeplex/trx2html/TRX2HTML Solution/SampleReport/bin/debug/SampleReport.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="trx2html.Test.SomeIgnored, SampleReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod4" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87728c89-8f2b-bf64-f8a6-3159d3c49299" executionId="28ffc405-ebf0-42dd-ba24-376245eb573e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2da85c0-df83-1d56-d83c-7ac95f39a15e" executionId="a88c34cf-923e-4782-930b-1074932a0443" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cb59d81-285d-abd7-6b38-1322a0c39841" executionId="5869309e-eebd-4545-9bab-e14ed4bc2c39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5be81b92-33b1-a70c-ed9d-1d826974a419" executionId="34f15048-75c5-4463-b49f-35572f081311" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ea63fd71-f65d-c981-9599-34226d0823cb" executionId="2dac446d-d5d9-44da-8fc9-d74d2bc505fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2559688-4825-60f4-21dd-3031a57f6336" executionId="210c5dd6-c8e4-4c35-af0d-a9b0cca7a794" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5966869-ab5b-78e3-e77e-3bc6715117dd" executionId="484601fd-8726-4371-8ee1-4ab5f70c0677" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58e27871-56f6-79c1-84d8-46a9245976f8" executionId="78d85d5d-439c-4dbb-b52a-8d97c4f93804" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f83fd64-76ec-9cfd-d033-2426bb82b2d6" executionId="ab615ff5-814a-4296-8e14-b94749e0f23a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cf016ed-1c06-41be-309f-07784035100a" executionId="11f20406-3c82-4438-a60f-e0eda470d907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e8880a8-49aa-3ca7-d581-0c96347aaf23" executionId="0be7b6f6-7514-4b52-9e27-56c6611304b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cee29df-f818-118d-eff2-2e1ac189ce4f" executionId="89381da6-5115-4d17-88b1-0782520592e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578" executionId="53a539e3-8e7c-49ad-b392-03ca9500d987" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c485d085-fa86-9de1-fdf2-33492397240a" executionId="133cf4c0-c4b2-4b5c-aecd-147e132fc2ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99" executionId="c8b460d2-ddfc-4d11-b0d3-8071622cdbe2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92a33c82-5798-6f5e-b54d-dcaa3166981c" executionId="6bfc57cb-6e9b-4832-ac79-5d4d9e2a9613" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8de44c0-d407-4488-30ec-547ec1c8b19a" executionId="ed32065f-ff8d-4984-a2dd-be81d6e5325c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="28ffc405-ebf0-42dd-ba24-376245eb573e" testId="87728c89-8f2b-bf64-f8a6-3159d3c49299" testName="TestMethod2" computerName="RIDOXPS" duration="00:00:00.0365171" startTime="2010-04-10T00:58:47.7834650+02:00" endTime="2010-04-10T00:58:48.1834878+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28ffc405-ebf0-42dd-ba24-376245eb573e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethod2() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\AllFailed.cs:line 51
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a88c34cf-923e-4782-930b-1074932a0443" testId="e2da85c0-df83-1d56-d83c-7ac95f39a15e" testName="TestMethod3" computerName="RIDOXPS" duration="00:00:00.0014504" startTime="2010-04-10T00:58:48.1854880+02:00" endTime="2010-04-10T00:58:48.1924884+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a88c34cf-923e-4782-930b-1074932a0443">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethod3() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\AllFailed.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5869309e-eebd-4545-9bab-e14ed4bc2c39" testId="8cb59d81-285d-abd7-6b38-1322a0c39841" testName="TestMethodFail" computerName="RIDOXPS" duration="00:00:00.0014312" startTime="2010-04-10T00:58:48.1944885+02:00" endTime="2010-04-10T00:58:48.2004888+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5869309e-eebd-4545-9bab-e14ed4bc2c39">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.AllFailed.TestMethodFail() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\AllFailed.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="34f15048-75c5-4463-b49f-35572f081311" testId="5be81b92-33b1-a70c-ed9d-1d826974a419" testName="TestMethod1" computerName="RIDOXPS" duration="00:00:00.0005834" startTime="2010-04-10T00:58:48.2034890+02:00" endTime="2010-04-10T00:58:48.2084893+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34f15048-75c5-4463-b49f-35572f081311">
+      <Output>
+        <StdOut>tracelog from console.out</StdOut>
+        <StdErr>tracelog from error.out</StdErr>
+        <DebugTrace>tracelog from debug
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2dac446d-d5d9-44da-8fc9-d74d2bc505fa" testId="ea63fd71-f65d-c981-9599-34226d0823cb" testName="TestMethod2" computerName="RIDOXPS" duration="00:00:00.0001556" startTime="2010-04-10T00:58:48.2114894+02:00" endTime="2010-04-10T00:58:48.2174898+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2dac446d-d5d9-44da-8fc9-d74d2bc505fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="210c5dd6-c8e4-4c35-af0d-a9b0cca7a794" testId="a2559688-4825-60f4-21dd-3031a57f6336" testName="TestMethod3" computerName="RIDOXPS" duration="00:00:00.0001236" startTime="2010-04-10T00:58:48.2194899+02:00" endTime="2010-04-10T00:58:48.2244902+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="210c5dd6-c8e4-4c35-af0d-a9b0cca7a794">
+    </UnitTestResult>
+    <UnitTestResult executionId="484601fd-8726-4371-8ee1-4ab5f70c0677" testId="b5966869-ab5b-78e3-e77e-3bc6715117dd" testName="TestMethod4" computerName="RIDOXPS" duration="00:00:00.0017468" startTime="2010-04-10T00:58:48.2274904+02:00" endTime="2010-04-10T00:58:48.2344908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="484601fd-8726-4371-8ee1-4ab5f70c0677">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod4() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\FailAndIgnored.cs:line 59
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="78d85d5d-439c-4dbb-b52a-8d97c4f93804" testId="58e27871-56f6-79c1-84d8-46a9245976f8" testName="TestMethod5" computerName="RIDOXPS" duration="00:00:00.0007036" startTime="2010-04-10T00:58:48.2364909+02:00" endTime="2010-04-10T00:58:48.2424912+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78d85d5d-439c-4dbb-b52a-8d97c4f93804">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod5() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\FailAndIgnored.cs:line 65
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab615ff5-814a-4296-8e14-b94749e0f23a" testId="9f83fd64-76ec-9cfd-d033-2426bb82b2d6" testName="TestMethod6" computerName="RIDOXPS" duration="00:00:00.0007228" startTime="2010-04-10T00:58:48.2454914+02:00" endTime="2010-04-10T00:58:48.2504917+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab615ff5-814a-4296-8e14-b94749e0f23a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethod6() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\FailAndIgnored.cs:line 71
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11f20406-3c82-4438-a60f-e0eda470d907" testId="4cf016ed-1c06-41be-309f-07784035100a" testName="TestMethodFail" computerName="RIDOXPS" duration="00:00:00.0015907" startTime="2010-04-10T00:58:48.2524918+02:00" endTime="2010-04-10T00:58:48.2594922+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11f20406-3c82-4438-a60f-e0eda470d907">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethodFail() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\FailAndIgnored.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0be7b6f6-7514-4b52-9e27-56c6611304b1" testId="7e8880a8-49aa-3ca7-d581-0c96347aaf23" testName="TestMethodFail2" computerName="RIDOXPS" duration="00:00:00.0014363" startTime="2010-04-10T00:58:48.2614923+02:00" endTime="2010-04-10T00:58:48.2684927+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0be7b6f6-7514-4b52-9e27-56c6611304b1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.FailAndIgnored.TestMethodFail2() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\FailAndIgnored.cs:line 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="89381da6-5115-4d17-88b1-0782520592e3" testId="8cee29df-f818-118d-eff2-2e1ac189ce4f" testName="TestMethod2" computerName="RIDOXPS" duration="00:00:00.0002604" startTime="2010-04-10T00:58:48.2704928+02:00" endTime="2010-04-10T00:58:48.2754931+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89381da6-5115-4d17-88b1-0782520592e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="53a539e3-8e7c-49ad-b392-03ca9500d987" testId="bdd0d1b7-bde4-8fc1-90a4-bcb958bea578" testName="TestMethod3" computerName="RIDOXPS" duration="00:00:00.0014376" startTime="2010-04-10T00:58:48.2784933+02:00" endTime="2010-04-10T00:58:48.2844936+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53a539e3-8e7c-49ad-b392-03ca9500d987">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test failed</Message>
+          <StackTrace>   at trx2html.Test.SomeFailed.TestMethod3() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\SomeFailed.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="133cf4c0-c4b2-4b5c-aecd-147e132fc2ef" testId="c485d085-fa86-9de1-fdf2-33492397240a" testName="TestMethodFail" computerName="RIDOXPS" duration="00:00:00.0015360" startTime="2010-04-10T00:58:48.2864937+02:00" endTime="2010-04-10T00:58:48.2924941+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="133cf4c0-c4b2-4b5c-aecd-147e132fc2ef">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Test fail</Message>
+          <StackTrace>   at trx2html.Test.SomeFailed.TestMethodFail() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\SomeFailed.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8b460d2-ddfc-4d11-b0d3-8071622cdbe2" testId="01f9d9e2-e029-eb84-bc8f-dff2e4a10d99" testName="TestMethod1" computerName="RIDOXPS" duration="00:00:00.0002626" startTime="2010-04-10T00:58:48.2954942+02:00" endTime="2010-04-10T00:58:48.3014946+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8b460d2-ddfc-4d11-b0d3-8071622cdbe2">
+      <Output>
+        <StdOut>sample tracelog from ConsoleWriteLine</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6bfc57cb-6e9b-4832-ac79-5d4d9e2a9613" testId="92a33c82-5798-6f5e-b54d-dcaa3166981c" testName="TestMethod2" computerName="RIDOXPS" duration="00:00:00.0002408" startTime="2010-04-10T00:58:48.3034947+02:00" endTime="2010-04-10T00:58:48.3134953+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bfc57cb-6e9b-4832-ac79-5d4d9e2a9613">
+      <Output>
+        <DebugTrace>sample tracelog from Debug.Writeline
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed32065f-ff8d-4984-a2dd-be81d6e5325c" testId="c8de44c0-d407-4488-30ec-547ec1c8b19a" testName="TestMethod4" computerName="RIDOXPS" duration="00:00:00.0008383" startTime="2010-04-10T00:58:48.3154954+02:00" endTime="2010-04-10T00:58:48.3204957+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed32065f-ff8d-4984-a2dd-be81d6e5325c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Inconclusive Message</Message>
+          <StackTrace>   at trx2html.Test.SomeIgnored.TestMethod4() in D:\code\codeplex\trx2html\TRX2HTML Solution\SampleReport\SomeIgnored.cs:line 69
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

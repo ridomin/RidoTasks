@@ -1,0 +1,2553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tests>
+	<edtdocversion branch="retail" build="50727" revision="42" />
+	<TestRun type="Microsoft.VisualStudio.TestTools.Common.TestRun">
+		<id type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</id>
+		<name type="System.String">rmpablos@RIDOPC 2006-05-23 02:24:51</name>
+		<runUser type="System.String">EUROPE\rmpablos</runUser>
+		<runConfig type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration">
+			<id type="Microsoft.VisualStudio.TestTools.Common.TestRunConfigurationId">
+				<id type="System.Guid">e1ecb8fd-24df-4fdb-9415-a16b9f11e3f4</id>
+			</id>
+			<name type="System.String">Default Run Configuration</name>
+			<description type="System.String" />
+			<isCodeCoverageEnabled type="System.Boolean">False</isCodeCoverageEnabled>
+			<codeCoverageItems type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.CodeCoverageItem, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+				<_size type="System.Int32">0</_size>
+				<_version type="System.Int32">0</_version>
+			</codeCoverageItems>
+			<codeCoverageKeyFile type="System.String" />
+			<aspNetProjectCoverageItems type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetProjectItem, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+				<_size type="System.Int32">0</_size>
+				<_version type="System.Int32">0</_version>
+			</aspNetProjectCoverageItems>
+			<isExecutedRemotely type="System.Boolean">False</isExecutedRemotely>
+			<bucketSize type="System.Int32">200</bucketSize>
+			<bucketThreshold type="System.Int32">1000</bucketThreshold>
+			<runTimeout type="System.Int32">0</runTimeout>
+			<testTimeout type="System.Int32">300000</testTimeout>
+			<agentNotRespondingTimeout type="System.Int32">300000</agentNotRespondingTimeout>
+			<deploymentTimeout type="System.Int32">300000</deploymentTimeout>
+			<controllerName type="System.String" />
+			<plugins type="System.Collections.Generic.List`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+				<_items type="System.String[]">
+					<element type="System.String">Microsoft.VisualStudio.TestTools.HostAdapters.AspNetPlugin, Microsoft.VisualStudio.QualityTools.HostAdapters.ASPNETAgent, Version=8.0.0.0, PublicKeyToken=b03f5f7f11d50a3a</element>
+					<element />
+					<element />
+					<element />
+				</_items>
+				<_size type="System.Int32">1</_size>
+				<_version type="System.Int32">1</_version>
+			</plugins>
+			<testTypeSpecificData type="System.Collections.Generic.Dictionary`2[[Microsoft.VisualStudio.TestTools.Common.TestType, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a],[Microsoft.VisualStudio.TestTools.Common.ITestTypeSpecificRunConfigurationData, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+				<count type="System.Int32">0</count>
+				<version type="System.Int32">0</version>
+				<freeList type="System.Int32">0</freeList>
+				<freeCount type="System.Int32">0</freeCount>
+				<comparer type="System.Collections.Generic.ObjectEqualityComparer`1[[Microsoft.VisualStudio.TestTools.Common.TestType, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]" />
+			</testTypeSpecificData>
+			<userDeploymentRoot type="System.String" />
+			<useDefaultDeploymentRoot type="System.Boolean">True</useDefaultDeploymentRoot>
+			<runDeploymentRoot type="System.String">D:\rido\RidoCode\TRX2HTML Solution\TestResults\rmpablos_RIDOPC 2006-05-23 02_24_51</runDeploymentRoot>
+			<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+			<testRunNamingScheme type="Microsoft.VisualStudio.TestTools.Common.TestRunNamingScheme">
+				<appendTimeStamp type="System.Boolean">True</appendTimeStamp>
+				<useDefault type="System.Boolean">True</useDefault>
+			</testRunNamingScheme>
+			<setupCommand type="System.String" />
+			<cleanupCommand type="System.String" />
+			<abortRunOnError type="System.Boolean">False</abortRunOnError>
+			<mapIPAddresses type="System.Boolean">False</mapIPAddresses>
+			<agentProperties type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+			<hostData type="Microsoft.VisualStudio.TestTools.Common.HostRunConfigurationData">
+				<mapHostSpecificData type="System.Collections.Generic.Dictionary`2[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[Microsoft.VisualStudio.TestTools.Common.IHostSpecificRunConfigurationData, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<count type="System.Int32">0</count>
+					<version type="System.Int32">0</version>
+					<freeList type="System.Int32">0</freeList>
+					<freeCount type="System.Int32">0</freeCount>
+					<comparer type="System.Collections.Generic.GenericEqualityComparer`1[[System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+				</mapHostSpecificData>
+			</hostData>
+			<ignoredDependentAssemblies type="System.String" />
+			<apartmentState type="System.Threading.ApartmentState">
+				<value__ type="System.Int32">0</value__>
+			</apartmentState>
+		</runConfig>
+		<result type="Microsoft.VisualStudio.TestTools.Common.RunResultAndStatistics">
+			<runInfoList type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.RunInfo, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+				<_size type="System.Int32">0</_size>
+				<_version type="System.Int32">0</_version>
+			</runInfoList>
+			<totalTestCount type="System.Int32">19</totalTestCount>
+			<executedTestCount type="System.Int32">19</executedTestCount>
+			<passedTestCount type="System.Int32">8</passedTestCount>
+			<stdout type="System.String" />
+			<stderr type="System.String" />
+			<debugTrace type="System.String">
+				tracelog from debug
+				sample tracelog from Debug.Writeline
+			</debugTrace>
+			<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+				<value__ type="System.Int32">1</value__>
+			</outcome>
+			<counters type="System.Int32">0,7,0,0,4,0,0,0,0,0,8,0,0,0</counters>
+			<isPartialRun type="System.Boolean">False</isPartialRun>
+		</result>
+		<creationTime type="System.DateTime">
+			<dateData type="System.UInt64">5244525425341919154</dateData>
+		</creationTime>
+		<queueingTime type="System.DateTime">
+			<dateData type="System.UInt64">5244525425348325404</dateData>
+		</queueingTime>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">5244525425350825404</dateData>
+		</startTime>
+		<finishTime type="System.DateTime">
+			<dateData type="System.UInt64">5244525425364731654</dateData>
+		</finishTime>
+		<tests type="System.Collections.Hashtable">
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">9f83fd64-76ec-9cfd-d033-2426bb82b2d6</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.FailAndIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod6</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">9f83fd64-76ec-9cfd-d033-2426bb82b2d6</id>
+				</id>
+				<name type="System.String">TestMethod6</name>
+				<description type="System.String">TestMethodThatIsIconclusive</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">5be81b92-33b1-a70c-ed9d-1d826974a419</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllPassed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod1</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">5be81b92-33b1-a70c-ed9d-1d826974a419</id>
+				</id>
+				<name type="System.String">TestMethod1</name>
+				<description type="System.String">TestMethod1Description</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">92a33c82-5798-6f5e-b54d-dcaa3166981c</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod2</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">92a33c82-5798-6f5e-b54d-dcaa3166981c</id>
+				</id>
+				<name type="System.String">TestMethod2</name>
+				<description type="System.String">TestMethodThatPassDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">8cb59d81-285d-abd7-6b38-1322a0c39841</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethodFail</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">8cb59d81-285d-abd7-6b38-1322a0c39841</id>
+				</id>
+				<name type="System.String">TestMethodFail</name>
+				<description type="System.String">TestMethodThatFailDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">87728c89-8f2b-bf64-f8a6-3159d3c49299</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod2</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">87728c89-8f2b-bf64-f8a6-3159d3c49299</id>
+				</id>
+				<name type="System.String">TestMethod2</name>
+				<description type="System.String">TestMethodThatFailDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">58e27871-56f6-79c1-84d8-46a9245976f8</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.FailAndIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod5</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">58e27871-56f6-79c1-84d8-46a9245976f8</id>
+				</id>
+				<name type="System.String">TestMethod5</name>
+				<description type="System.String">TestMethodThatIsIconclusive</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">4cf016ed-1c06-41be-309f-07784035100a</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.FailAndIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethodFail</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">4cf016ed-1c06-41be-309f-07784035100a</id>
+				</id>
+				<name type="System.String">TestMethodFail</name>
+				<description type="System.String">TestMethodThatFailsDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">8cee29df-f818-118d-eff2-2e1ac189ce4f</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod2</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">8cee29df-f818-118d-eff2-2e1ac189ce4f</id>
+				</id>
+				<name type="System.String">TestMethod2</name>
+				<description type="System.String">TestMethodThatPassDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">c8de44c0-d407-4488-30ec-547ec1c8b19a</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod4</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">c8de44c0-d407-4488-30ec-547ec1c8b19a</id>
+				</id>
+				<name type="System.String">TestMethod4</name>
+				<description type="System.String">TestMethodThatIsIconclusive</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">ca29a9d8-04c0-5b5b-c341-408997b19829</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.ResourceReaderTest, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">LoadTextFromResourceTest</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">ca29a9d8-04c0-5b5b-c341-408997b19829</id>
+				</id>
+				<name type="System.String">LoadTextFromResourceTest</name>
+				<description type="System.String" />
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection">
+					<m_container type="System.Collections.Hashtable">
+						<key type="Microsoft.VisualStudio.TestTools.Common.DeploymentItem">
+							<path type="System.String">trx2html.exe</path>
+							<outputDirectory type="System.String" />
+						</key>
+						<value />
+					</m_container>
+				</deploymentItems>
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">7e8880a8-49aa-3ca7-d581-0c96347aaf23</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.FailAndIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethodFail2</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">7e8880a8-49aa-3ca7-d581-0c96347aaf23</id>
+				</id>
+				<name type="System.String">TestMethodFail2</name>
+				<description type="System.String">TestMethodThatFailsDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">c485d085-fa86-9de1-fdf2-33492397240a</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethodFail</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">c485d085-fa86-9de1-fdf2-33492397240a</id>
+				</id>
+				<name type="System.String">TestMethodFail</name>
+				<description type="System.String">TestMethodThatFailsDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">e2da85c0-df83-1d56-d83c-7ac95f39a15e</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod3</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">e2da85c0-df83-1d56-d83c-7ac95f39a15e</id>
+				</id>
+				<name type="System.String">TestMethod3</name>
+				<description type="System.String">TestMethodThatFailDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">92f2efb0-47b6-db8d-fb8f-fdb1003e07f5</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.ResourceReaderTest, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">StreamFromResourceTest</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">92f2efb0-47b6-db8d-fb8f-fdb1003e07f5</id>
+				</id>
+				<name type="System.String">StreamFromResourceTest</name>
+				<description type="System.String" />
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection">
+					<m_container type="System.Collections.Hashtable">
+						<key type="Microsoft.VisualStudio.TestTools.Common.DeploymentItem">
+							<path type="System.String">trx2html.exe</path>
+							<outputDirectory type="System.String" />
+						</key>
+						<value />
+					</m_container>
+				</deploymentItems>
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">a2559688-4825-60f4-21dd-3031a57f6336</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllPassed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod3</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">a2559688-4825-60f4-21dd-3031a57f6336</id>
+				</id>
+				<name type="System.String">TestMethod3</name>
+				<description type="System.String">TestMethod3Description</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">bdd0d1b7-bde4-8fc1-90a4-bcb958bea578</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeFailed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod3</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">bdd0d1b7-bde4-8fc1-90a4-bcb958bea578</id>
+				</id>
+				<name type="System.String">TestMethod3</name>
+				<description type="System.String">TestMethodThatFailDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">b5966869-ab5b-78e3-e77e-3bc6715117dd</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.FailAndIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod4</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">b5966869-ab5b-78e3-e77e-3bc6715117dd</id>
+				</id>
+				<name type="System.String">TestMethod4</name>
+				<description type="System.String">TestMethodThatIsIconclusive</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">01f9d9e2-e029-eb84-bc8f-dff2e4a10d99</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.SomeIgnored, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod1</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">01f9d9e2-e029-eb84-bc8f-dff2e4a10d99</id>
+				</id>
+				<name type="System.String">TestMethod1</name>
+				<description type="System.String">TestMethodThatPassDescription</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">ea63fd71-f65d-c981-9599-34226d0823cb</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+				<codeBase type="System.String">D:/rido/RidoCode/TRX2HTML Solution/trx2html.Test/bin/debug/trx2html.Test.DLL</codeBase>
+				<adapterTypeName type="System.String">Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</adapterTypeName>
+				<testMethod type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<className type="System.String">trx2html.Test.AllPassed, trx2html.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</className>
+					<name type="System.String">TestMethod2</name>
+					<expectedExceptionMessage type="System.String" />
+					<isValid type="System.Boolean">False</isValid>
+				</testMethod>
+				<aspNetDevServers type="System.Collections.Generic.List`1[[Microsoft.VisualStudio.TestTools.Common.AspNetDevelopmentServer, Microsoft.VisualStudio.QualityTools.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">0</_version>
+				</aspNetDevServers>
+				<dataAccessMethod type="Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+					<value__ type="System.Int32">0</value__>
+				</dataAccessMethod>
+				<cssProjectStructure type="System.String" />
+				<isRunOnRestart type="System.Boolean">False</isRunOnRestart>
+				<timeOut type="System.Int32">0</timeOut>
+				<isGroupable type="System.Boolean">True</isGroupable>
+				<abortRunOnAgentFailure type="System.Boolean">False</abortRunOnAgentFailure>
+				<cssIteration type="System.String" />
+				<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+					<_size type="System.Int32">0</_size>
+					<_version type="System.Int32">1</_version>
+				</workItemIds>
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">ea63fd71-f65d-c981-9599-34226d0823cb</id>
+				</id>
+				<name type="System.String">TestMethod2</name>
+				<description type="System.String">TestMethod2Description</description>
+				<enabled type="System.Boolean">True</enabled>
+				<owner type="System.String" />
+				<priority type="System.Int32">0</priority>
+				<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</executionId>
+				<parentExecutId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentExecutId>
+				<deploymentItems type="Microsoft.VisualStudio.TestTools.Common.DeploymentItemCollection" />
+				<agentAttributes type="System.Collections.Specialized.StringDictionary, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+				<storage type="System.String">trx2html.test\bin\debug\trx2html.test.dll</storage>
+				<m_nonRunnableReason type="System.String" />
+			</value>
+		</tests>
+		<categories type="System.Collections.Hashtable">
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+				<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.Common.TestCategory">
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</id>
+				<name type="System.String">Results Not in a List</name>
+				<description type="System.String" />
+				<enabled type="System.Boolean">True</enabled>
+				<parentCategoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentCategoryId>
+			</value>
+			<key type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+				<id type="System.Guid">19431567-8539-422a-85d7-44ee4e166bda</id>
+			</key>
+			<value type="Microsoft.VisualStudio.TestTools.Common.TestCategory">
+				<id type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">19431567-8539-422a-85d7-44ee4e166bda</id>
+				</id>
+				<name type="System.String">All Loaded Results</name>
+				<description type="System.String" />
+				<enabled type="System.Boolean">True</enabled>
+				<parentCategoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</parentCategoryId>
+			</value>
+		</categories>
+		<entries type="Microsoft.VisualStudio.TestTools.Common.TestEntry[]">
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">87728c89-8f2b-bf64-f8a6-3159d3c49299</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">071435d0-afd1-4e03-8f99-685b50305deb</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">e2da85c0-df83-1d56-d83c-7ac95f39a15e</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">221eaa0a-90a1-41fe-bccc-70f2071a91cb</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">8cb59d81-285d-abd7-6b38-1322a0c39841</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">c376ba09-701d-406f-88f9-dd1c715a69e5</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">5be81b92-33b1-a70c-ed9d-1d826974a419</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">675a9706-98af-4e9f-af2c-83869c0aaa90</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">ea63fd71-f65d-c981-9599-34226d0823cb</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">e806f972-824b-472e-93a1-207aed528714</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">a2559688-4825-60f4-21dd-3031a57f6336</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">fdeae814-31bd-43a4-bc13-d3c43c73bfde</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">b5966869-ab5b-78e3-e77e-3bc6715117dd</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">998dbc63-a7a9-4884-8029-ce5b76f77d3e</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">58e27871-56f6-79c1-84d8-46a9245976f8</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">8db2117d-33bf-4bf9-902c-cccd7a1dcef3</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">9f83fd64-76ec-9cfd-d033-2426bb82b2d6</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">8eab8c5f-1b2c-4e05-9fc7-b0101eb66ad1</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">4cf016ed-1c06-41be-309f-07784035100a</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">fb3db880-8b8f-411e-adcf-d78f76153ccc</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">7e8880a8-49aa-3ca7-d581-0c96347aaf23</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">3f08d116-e3ab-41e4-8a7e-b6028ad76b42</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">ca29a9d8-04c0-5b5b-c341-408997b19829</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">d82e7572-f2ff-491b-a818-0227aa47f4f9</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">92f2efb0-47b6-db8d-fb8f-fdb1003e07f5</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">c93efbb7-034e-4a80-b734-eba46f231a0f</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">8cee29df-f818-118d-eff2-2e1ac189ce4f</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">54f597f8-3530-4f97-aa98-d712e19eef4b</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">bdd0d1b7-bde4-8fc1-90a4-bcb958bea578</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">3b6c64ca-d636-4173-bde9-dea9f6d400e1</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">c485d085-fa86-9de1-fdf2-33492397240a</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">3b044721-a12d-4690-9c66-19738fbbd967</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">01f9d9e2-e029-eb84-bc8f-dff2e4a10d99</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">e8926b80-34eb-47d0-a7ba-4f8a28c174a6</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">92a33c82-5798-6f5e-b54d-dcaa3166981c</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">83461392-d8e5-4575-8051-cce941bdb97f</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+			<element type="Microsoft.VisualStudio.TestTools.Common.TestEntry">
+				<m_testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+					<id type="System.Guid">c8de44c0-d407-4488-30ec-547ec1c8b19a</id>
+				</m_testId>
+				<m_execId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">f5b14faf-dbe0-4e72-a0c3-0759e0d823c0</id>
+				</m_execId>
+				<m_parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+					<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+				</m_parentExecId>
+				<m_categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+					<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+				</m_categoryId>
+				<m_isTransparent type="System.Boolean">True</m_isTransparent>
+			</element>
+		</entries>
+	</TestRun>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test failed</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.AllFailed.TestMethod2() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\AllFailed.cs:line 51
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllFailed.
+				Calling Test method trx2html.Test.AllFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">071435d0-afd1-4e03-8f99-685b50305deb</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">87728c89-8f2b-bf64-f8a6-3159d3c49299</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod2</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.1949496</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406924062500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933437500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test failed</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.AllFailed.TestMethod3() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\AllFailed.cs:line 56
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllFailed.
+				Calling Test method trx2html.Test.AllFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">221eaa0a-90a1-41fe-bccc-70f2071a91cb</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">e2da85c0-df83-1d56-d83c-7ac95f39a15e</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod3</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0026662</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933437500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933750000</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test fail</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.AllFailed.TestMethodFail() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\AllFailed.cs:line 46
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllFailed.
+				Calling Test method trx2html.Test.AllFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">c376ba09-701d-406f-88f9-dd1c715a69e5</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">8cb59d81-285d-abd7-6b38-1322a0c39841</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethodFail</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0009864</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933750000</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933906250</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllPassed.
+				Calling Test method trx2html.Test.AllPassed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String">
+			tracelog from console.out
+		</stdout>
+		<stderr type="System.String">
+			tracelog from error.out
+		</stderr>
+		<debugTrace type="System.String">
+			tracelog from debug
+		</debugTrace>
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">675a9706-98af-4e9f-af2c-83869c0aaa90</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">5be81b92-33b1-a70c-ed9d-1d826974a419</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod1</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0046184</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406933906250</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934062500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllPassed.
+				Calling Test method trx2html.Test.AllPassed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">e806f972-824b-472e-93a1-207aed528714</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">ea63fd71-f65d-c981-9599-34226d0823cb</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod2</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0002687</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934218750</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934375000</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.AllPassed.
+				Calling Test method trx2html.Test.AllPassed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">fdeae814-31bd-43a4-bc13-d3c43c73bfde</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">a2559688-4825-60f4-21dd-3031a57f6336</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod3</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0002726</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934375000</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934531250</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">4</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Inconclusive failed. Inconclusive</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.FailAndIgnored.TestMethod4() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\FailAndIgnored.cs:line 59
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.FailAndIgnored.
+				Calling Test method trx2html.Test.FailAndIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">998dbc63-a7a9-4884-8029-ce5b76f77d3e</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">b5966869-ab5b-78e3-e77e-3bc6715117dd</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod4</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0054654</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934531250</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934687500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">4</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Inconclusive failed. Inconclusive</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.FailAndIgnored.TestMethod5() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\FailAndIgnored.cs:line 65
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.FailAndIgnored.
+				Calling Test method trx2html.Test.FailAndIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">8db2117d-33bf-4bf9-902c-cccd7a1dcef3</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">58e27871-56f6-79c1-84d8-46a9245976f8</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod5</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0010378</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934687500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934843750</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">4</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Inconclusive failed. Inconclusive</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.FailAndIgnored.TestMethod6() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\FailAndIgnored.cs:line 71
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.FailAndIgnored.
+				Calling Test method trx2html.Test.FailAndIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">8eab8c5f-1b2c-4e05-9fc7-b0101eb66ad1</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">9f83fd64-76ec-9cfd-d033-2426bb82b2d6</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod6</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0010708</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406934843750</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935000000</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test fail</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.FailAndIgnored.TestMethodFail() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\FailAndIgnored.cs:line 46
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.FailAndIgnored.
+				Calling Test method trx2html.Test.FailAndIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">fb3db880-8b8f-411e-adcf-d78f76153ccc</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">4cf016ed-1c06-41be-309f-07784035100a</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethodFail</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0009490</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935000000</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935156250</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test fail</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.FailAndIgnored.TestMethodFail2() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\FailAndIgnored.cs:line 52
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.FailAndIgnored.
+				Calling Test method trx2html.Test.FailAndIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">3f08d116-e3ab-41e4-8a7e-b6028ad76b42</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">7e8880a8-49aa-3ca7-d581-0c96347aaf23</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethodFail2</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0009339</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935156250</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935312500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.ResourceReaderTest.
+				Calling Test method trx2html.Test.ResourceReaderTest.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">d82e7572-f2ff-491b-a818-0227aa47f4f9</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">ca29a9d8-04c0-5b5b-c341-408997b19829</id>
+			</testId>
+		</id>
+		<testName type="System.String">LoadTextFromResourceTest</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0299172</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935312500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935781250</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.ResourceReaderTest.
+				Calling Test method trx2html.Test.ResourceReaderTest.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">c93efbb7-034e-4a80-b734-eba46f231a0f</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">92f2efb0-47b6-db8d-fb8f-fdb1003e07f5</id>
+			</testId>
+		</id>
+		<testName type="System.String">StreamFromResourceTest</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0008559</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935781250</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935937500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeFailed.
+				Calling Test method trx2html.Test.SomeFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">54f597f8-3530-4f97-aa98-d712e19eef4b</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">8cee29df-f818-118d-eff2-2e1ac189ce4f</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod2</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0006620</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935937500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935937500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test failed</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.SomeFailed.TestMethod3() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\SomeFailed.cs:line 56
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeFailed.
+				Calling Test method trx2html.Test.SomeFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">3b6c64ca-d636-4173-bde9-dea9f6d400e1</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">bdd0d1b7-bde4-8fc1-90a4-bcb958bea578</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod3</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0014085</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406935937500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936093750</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">1</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Fail failed. Test fail</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.SomeFailed.TestMethodFail() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\SomeFailed.cs:line 46
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeFailed.
+				Calling Test method trx2html.Test.SomeFailed.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">3b044721-a12d-4690-9c66-19738fbbd967</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">c485d085-fa86-9de1-fdf2-33492397240a</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethodFail</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0009420</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936093750</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936406250</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeIgnored.
+				Calling Test method trx2html.Test.SomeIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String">
+			sample tracelog from ConsoleWriteLine
+		</stdout>
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">e8926b80-34eb-47d0-a7ba-4f8a28c174a6</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">01f9d9e2-e029-eb84-bc8f-dff2e4a10d99</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod1</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0006735</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936406250</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936562500</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">10</value__>
+		</outcome>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeIgnored.
+				Calling Test method trx2html.Test.SomeIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String">
+			sample tracelog from Debug.Writeline
+		</debugTrace>
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">83461392-d8e5-4575-8051-cce941bdb97f</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">92a33c82-5798-6f5e-b54d-dcaa3166981c</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod2</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0004369</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936562500</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936718750</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+	<UnitTestResult type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResult, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+		<resultType type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestResultType, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+			<value__ type="System.Int32">0</value__>
+		</resultType>
+		<m_hasSufficientAccess type="System.Boolean">True</m_hasSufficientAccess>
+		<counters type="Microsoft.VisualStudio.TestTools.Common.TestResultCounter">
+			<values type="System.Int32">0,0,0,0,0,0,0,0,0,0,0,0,0,0</values>
+			<total type="System.Int32">1</total>
+		</counters>
+		<categoryId type="Microsoft.VisualStudio.TestTools.Common.TestCategoryId">
+			<id type="System.Guid">8c84fa94-04c1-424b-9868-57a2d4851a1d</id>
+		</categoryId>
+		<outcome type="Microsoft.VisualStudio.TestTools.Common.TestOutcome">
+			<value__ type="System.Int32">4</value__>
+		</outcome>
+		<errorInfo type="Microsoft.VisualStudio.TestTools.Common.TestResultErrorInfo">
+			<message type="System.String">Assert.Inconclusive failed. Inconclusive Message</message>
+			<stackTrace type="System.String">
+				at trx2html.Test.SomeIgnored.TestMethod4() in d:\rido\RidoCode\TRX2HTML Solution\trx2html.Test\SomeIgnored.cs:line 69
+			</stackTrace>
+		</errorInfo>
+		<traceInfo type="Microsoft.VisualStudio.TestTools.Common.TestExecutionTraceInformation">
+			<trace type="System.Text.StringBuilder">
+				Creating instance of class trx2html.Test.SomeIgnored.
+				Calling Test method trx2html.Test.SomeIgnored.Microsoft.VisualStudio.TestTools.TestTypes.Unit.TestMethod.
+			</trace>
+		</traceInfo>
+		<stdout type="System.String" />
+		<stderr type="System.String" />
+		<debugTrace type="System.String" />
+		<workItemIds type="System.Collections.Generic.List`1[[System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]">
+			<_size type="System.Int32">0</_size>
+			<_version type="System.Int32">1</_version>
+		</workItemIds>
+		<id type="Microsoft.VisualStudio.TestTools.Common.TestResultId">
+			<runId type="System.Guid">bee22211-1bfd-4a73-ab57-3743fb1cac11</runId>
+			<executionId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">f5b14faf-dbe0-4e72-a0c3-0759e0d823c0</id>
+			</executionId>
+			<parentExecId type="Microsoft.VisualStudio.TestTools.Common.TestExecId">
+				<id type="System.Guid">00000000-0000-0000-0000-000000000000</id>
+			</parentExecId>
+			<testId type="Microsoft.VisualStudio.TestTools.Common.TestId">
+				<id type="System.Guid">c8de44c0-d407-4488-30ec-547ec1c8b19a</id>
+			</testId>
+		</id>
+		<testName type="System.String">TestMethod4</testName>
+		<testType type="Microsoft.VisualStudio.TestTools.Common.TestType">
+			<id type="System.Guid">13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b</id>
+		</testType>
+		<messageKind type="Microsoft.VisualStudio.TestTools.Common.TestMessageKind">
+			<value__ type="System.Int32">1</value__>
+		</messageKind>
+		<computerInfo type="Microsoft.VisualStudio.TestTools.Common.ComputerInfo">
+			<m_computerName type="System.String">RIDOPC</m_computerName>
+		</computerInfo>
+		<duration type="System.TimeSpan">00:00:00.0011646</duration>
+		<startTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936718750</dateData>
+		</startTime>
+		<endTime type="System.DateTime">
+			<dateData type="System.UInt64">632839406936875000</dateData>
+		</endTime>
+		<spoolMessage type="System.Boolean">True</spoolMessage>
+	</UnitTestResult>
+</Tests>

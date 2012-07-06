@@ -1,0 +1,23 @@
+body, td, th {font:smaller Verdana;vertical-align:top;text-align:left}
+body {margin:0px 0px 0px 15px}
+hr {margin:0px 0px 0px -15px;border:solid 1pt #dcdcdc}
+table {border-collapse:collapse;border:solid 1px #a9a9a9}
+th {background-color:#dcdcdc;border:solid 1px #a9a9a9;text-indent:2pt;font-weight:bolder}
+td {border:solid 1px #a9a9a9}
+pre{font-size:8pt}
+
+span.ok{background-color:lime;color:black;font-size:40%;color:lime;display:inline-block;}
+span.ko{background-color:red;color:white;font-size:40%;color:red;display:inline-block;}
+span.ignore{background-color:yellow;color:white;font-size:40%;color:yellow;display:inline-block;}
+
+p.testKo{background-color:red;font-size:small;color:red;cursor:hand;margin:0 3px;padding:0 3px;}
+p.testKo:hover{background-color:orange;}
+p.testOk{background-color:lime;font-size:small;color:lime;cursor:hand;margin:0 3px;padding:0 3px;}
+p.testOk:hover{background-color:green;}
+p.testIgnore{background-color:yellow;font-size:small;color:yellow;cursor:hand;margin:0 3px;padding:0 3px;}
+p.testIgnore:hover{background-color:grey;}
+
+div.barContainer{width:100%;border:solid 1px black}
+div.trace{font:60% Courier}
+div.border{border:dotted 1px #dcdcdc;padding:2px 2px 2px 2px}
+div.contents{border:dotted 1px #dcdcdc;padding:2px 2px 2px 2px;width:400px;background-color:#efefef}
